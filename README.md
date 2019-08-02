@@ -3,7 +3,7 @@
 1. 创建 php 容器
 
 ```bash
-    docker run -d --name php7 -v $PWD/www:/var/www/html -p 9000:9000 php:7.2-fpm
+docker run -d --name php7 -v $PWD/www:/var/www/html -p 9000:9000 php:7.2-fpm
 ```
 
 2. 创建 nginx 容器
